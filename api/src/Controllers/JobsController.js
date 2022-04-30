@@ -86,7 +86,7 @@ module.exports.jobsList = async (req, res) => {
         return res.send({
             code: 200,
             message: "Success",
-            data: result
+            data: dataResult
         })
     } catch (err) {
         throw err
